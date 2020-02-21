@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    border: 0;
+}
+
+/********** Footer ************/
+footer{
+    height: 500px;
+    background-color: black;
+    color: white;
+}
+
+#logo-footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.content-footer{
+    text-align: center;
+}
+
+.txt-footer{
+    font-size: 16pt;
+}
+
+#group-copyright{
+    position: sticky;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.body-footer{
+    min-height: 440px;
+}
