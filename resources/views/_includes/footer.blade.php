@@ -11,13 +11,13 @@
                 <div class="col-lg-4">
                     <div class="content-footer">
                         <h4>SIGA-NOS</h4>
-                        <a href=""><img src="{{asset('img/face_logo.png')}}" alt="Logo Facebook" width="80"></a>
+                        <a href="https://pt-br.facebook.com/barcosnautec"><img src="{{asset('img/face_logo.png')}}" alt="Logo Facebook" width="80"></a>
                     </div>            
                 </div>
                 <div class="col-lg-4">
                     <div class="content-footer">
                         <h4>ENDEREÇO</h4>
-                        <p class="txt-footer">Avenida Presidente Dutra, 1-B - Glória Manaus-Am</p>
+                        <p class="txt-footer">Avenida Presidente Dutra, 1-B, Glória, Manaus-AM</p>
                     </div>            
                 </div>
                 <div class="col-lg-4">
@@ -34,7 +34,7 @@
                     <p class="copyright">Barcos Nautec © 2019 • Todos os direitos Reservados.</p>
                 </div>
                 <div class="col-lg-6">
-                    <p class="copyright">Desenvolvido por Jakson Protázio Vilaça</p>
+                    <p class="copyright">Desenvolvido por <a href="#" id="link-copyright">Jakson Protázio Vilaça</a></p>
                 </div>
             </div>
         </div>

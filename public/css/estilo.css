@@ -35,3 +35,7 @@ footer{
 .body-footer{
     min-height: 440px;
 }
+
+#link-copyright{
+    color: #FF5042;
+}
