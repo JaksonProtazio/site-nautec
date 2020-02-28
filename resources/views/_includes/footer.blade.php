@@ -10,19 +10,19 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="content-footer">
-                        <h4>SIGA-NOS</h4>
+                        <h4 class="titulo-footer">SIGA-NOS</h4>
                         <a href="https://pt-br.facebook.com/barcosnautec"><img src="{{asset('img/face_logo.png')}}" alt="Logo Facebook" width="80"></a>
                     </div>            
                 </div>
                 <div class="col-lg-4">
                     <div class="content-footer">
-                        <h4>ENDEREÇO</h4>
+                        <h4 class="titulo-footer">ENDEREÇO</h4>
                         <p class="txt-footer">Avenida Presidente Dutra, 1-B, Glória, Manaus-AM</p>
                     </div>            
                 </div>
                 <div class="col-lg-4">
                     <div class="content-footer contato">
-                        <h4>CONTATO</h4>
+                        <h4 class="titulo-footer">CONTATO</h4>
                         <p class="txt-footer">comercial@barcosnautec.com.br <br>(92) 99142-0379 <br>(92) 99125-8002 (WhatsApp) <br>(92) 3304-9741</p>
                     </div>            
                 </div>

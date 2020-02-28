@@ -26,6 +26,11 @@ footer{
     margin-bottom: 20px;
 }
 
+.titulo-footer{
+    font-weight: bold;
+}
+
+
 .txt-footer{
     font-size: 15pt;
 }
