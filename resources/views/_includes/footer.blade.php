@@ -21,7 +21,7 @@
                     </div>            
                 </div>
                 <div class="col-lg-4">
-                    <div class="content-footer">
+                    <div class="content-footer contato">
                         <h4>CONTATO</h4>
                         <p class="txt-footer">comercial@barcosnautec.com.br <br>(92) 99142-0379 <br>(92) 99125-8002 (WhatsApp) <br>(92) 3304-9741</p>
                     </div>            

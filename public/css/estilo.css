@@ -5,7 +5,7 @@
 
 /********** Footer ************/
 footer{
-    height: 500px;
+    min-height: 500px;
     background-color: black;
     color: white;
 }
@@ -18,10 +18,12 @@ footer{
 
 .content-footer{
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .txt-footer{
-    font-size: 16pt;
+    font-size: 15pt;
 }
 
 #group-copyright{
@@ -30,6 +32,29 @@ footer{
 
 .copyright{
     text-align: center;
+}
+
+p.copyright{
+    margin: 0;
+}
+
+@media(max-width: 990px){
+    footer{
+        display: inline-table;
+    }
+    .contato{
+        margin-bottom: 50px;
+    }
+
+    #group-copyright{
+        position: relative;
+    }
+}
+
+@media(max-width: 766px){
+    .copyright{
+        font-size: 9pt;
+    }
 }
 
 .body-footer{
