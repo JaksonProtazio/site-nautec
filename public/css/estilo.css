@@ -3,6 +3,10 @@
     border: 0;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /********** Footer ************/
 footer{
     min-height: 500px;
