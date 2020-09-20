@@ -4,109 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barcos Nautec</title>
-    <link rel="icon" href="icone.ico">
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">>
+    <link rel="icon" href="icone.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
-    
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="second">
             <div class="nav-wrapper">
-                <a href="/" class="brand-logo"><img src="img/logo.png" alt="Logo Nautec"></a>
+                <a href="/" class="brand-logo"><img src="img/logo2.png" alt="Logo Nautec"></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="/" class="active">Página Inicial</a></li>
+                    <li><a href="/">Página Inicial</a></li>
                     <li><a href="sobre.html">Sobre Nós</a></li>
-                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="servicos.html" class="active">Serviços</a></li>
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
             </div>
         </nav>
 
         <ul class="sidenav" id="mobile-demo">
-            <li><a href="/" class="active">Página Inicial</a></li>
+            <li><a href="/">Página Inicial</a></li>
             <li><a href="sobre.html">Sobre Nós</a></li>
-            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="servicos.html" class="active">Serviços</a></li>
             <li><a href="contato.html">Contato</a></li>
         </ul>
     </header>    
     <main>
-        <section id="introducao">
-            <div class="content-introducao">               
-                <div class="bg-introducao">
-                    <div class="container">
-                        <div class="detalhes-introducao">
-                            <h1>Barcos Nautec aqui você encontra qualidade e bom preço!</h1>
-                            <a class="waves-effect waves-light btn" href="#modelos">Confira nossas Embarcações</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="modelos">
-            <div class="content-modelos content-sections">
+        <section id="sobre">
+            <div class="content-sections">
                 <div class="container">
                     <div class="group-titulos">
-                        <h2 class="titulos-second">Conheça nossos modelos</h2>
-                        <p class="subtitulos">Veja alguns dos modelos que nossa equipe produz</p>
+                        <h2 class="titulos-second">Serviços</h2>
                     </div>
-                    <div class="group-modelos">
+                    <div class="group-servicos">
                         <div class="row">
-                            <div class="col l4 m4 s12">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <img src="img/barcos/barco1.jpg" class="materialboxed">
-                                    </div>
+                            <div class="col xl12 l12">
+                                <div>
+                                    <p>Nossas maiores especialidades são o desenvolvimento de barcos, atuando na fabricação
+                                        de suportes para ar condicionado, suportes paara mangueiras de incêndio e serviços na
+                                        área comercial e insdustrial. A nossa competência em tais áreas irá fazer toda a diferença
+                                        no desenvolvimento e sucesso de seu desejo.</p>
                                 </div>
+                                
                             </div>
 
-                            <div class="col l4 m4 s12">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <img src="img/barcos/barco2.jpg" class="materialboxed">
-                                    </div>
+                            <div class="col xl6 l6 m12 s12">
+                                <div class="consultar left-group">
+                                    <h3>Marque uma Consulta</h3>
+                                    <p>Informe-nos quando você tem algum tempo e marque uma <a href="consulta.html"><strong>consulta</strong></a>!</p>
                                 </div>
+                                
                             </div>
 
-                            <div class="col l4 m4 s12">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <img src="img/barcos/barco3.jpg" class="materialboxed">
-                                    </div>
+                            <div class="col xl6 l6 m12 s12">
+                                <div class="consultar right-group">
+                                    <h3>Equipe</h3>
+                                    <p>O sucesso de nossa companhia, são os nossos empregados que trabalham com amor e dedicação para garantir que o seu projeto seja bem-sucedido. <a href="equipe.html"><strong>Saiba mais</strong></a>.</p>
                                 </div>
+                                
                             </div>
                         </div>
-
-                        <a class="waves-effect waves-light btn" href="modelos.html">Veja mais</a>
                     </div>
                 </div>
             </div>            
-        </section>
-
-        <section>
-            <div class="content-fale-conosco">
-                <div class="container">
-                    <div class="row">
-                        <div class="col xl6 l6 m12 s12">
-                            <h2 class="titulos-second">
-                                Quer saber mais sobre nossos modelos? Fale com a gente  
-                            </h2>
-
-                            <a class="waves-effect waves-light btn desktop-btn" href="contato.html">Fale Conosco</a>
-                        </div>
-                        <div class="col xl6 l6 m12 s12">
-                            <img class="responsive-img" src="img/contact.png" alt="Contato">
-                        </div>
-                    </div>
-                    <a class="waves-effect waves-light btn mobile-btn" href="contato.html">Fale Conosco</a>
-                </div>
-            </div>
         </section>
     </main>
 
@@ -144,14 +110,12 @@
         </div>
     </footer>
 
+    <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             var menu = document.querySelectorAll('.sidenav');
             var instances = M.Sidenav.init(menu);
-
-            var elems = document.querySelectorAll('.materialboxed');
-            var instances = M.Materialbox.init(elems);
         });
     </script>
 </body>
