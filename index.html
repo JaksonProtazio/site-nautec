@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcos Nautec</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="/" class="brand-logo"><img src="img/logo.png" alt="Logo Nautec"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="/" class="active">Página Inicial</a></li>
+                    <li><a href="badges.html">Sobre Nós</a></li>
+                    <li><a href="collapsible.html">Serviços</a></li>
+                    <li><a href="mobile.html">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="/">Página Inicial</a></li>
+            <li><a href="badges.html">Sobre Nós</a></li>
+            <li><a href="collapsible.html">Serviços</a></li>
+            <li><a href="mobile.html">Contato</a></li>
+        </ul>
+    </header>    
+    <main>
+        <section id="introducao">
+            <div class="content-introducao">               
+                <div class="bg-introducao">
+                    <div class="container">
+                        <div class="detalhes-introducao">
+                            <h1>Barcos Nautec aqui você encontra qualidade e bom preço!</h1>
+                            <a class="waves-effect waves-light btn">Confira nossas Embarcações</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="modelos">
+            <div class="content-modelos content-sections">
+                <div class="container">
+                    <div class="group-titulos">
+                        <h2 class="titulos-second">Conheça nossos modelos</h2>
+                        <p class="subtitulos">Veja alguns dos modelos que nossa equipe produz</p>
+                    </div>
+                    <div class="group-modelos">
+                        <div class="row">
+                            <div class="col l4 m4 s12">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/barcos/barco1.png">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l4 m4 s12">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/barcos/barco2.png">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l4 m4 s12">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/barcos/barco3.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="waves-effect waves-light btn">Veja mais</a>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        <section>
+            <div class="content-fale-conosco">
+                <div class="container">
+                    <div class="row">
+                        <div class="col xl6 l6 m12 s12">
+                            <h2 class="titulos-second">
+                                Quer saber mais sobre nossos modelos? Fale com a gente  
+                            </h2>
+
+                            <a class="waves-effect waves-light btn desktop-btn">Fale Conosco</a>
+                        </div>
+                        <div class="col xl6 l6 m12 s12">
+                            <img class="responsive-img" src="img/contact.png" alt="Contato">
+                        </div>
+                    </div>
+                    <a class="waves-effect waves-light btn mobile-btn">Fale Conosco</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l12 m12 s12">
+                    <div class="menu-footer">
+                        <ul>
+                            <li><a href="/">Página Inicial</a></li>
+                            <li><a href="badges.html">Sobre Nós</a></li>
+                            <li><a href="collapsible.html">Serviços</a></li>
+                            <li><a href="mobile.html">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l6 push-l6 push-m6 m6 s12">
+                    <div>
+                        <h5 class="white-text title-footer">Rede Social</h5>
+                        <ul class="redes-sociais">
+                            <li><a class="grey-text text-lighten-3" href="#!"><img src="img/fb.png" alt="Facebook"></a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="col l6 pull-l6 m6 pull-m6 s12">
+                    <div class="footer-copyright">
+                        <div class="container">
+                            <p>© 2020 <a href="https://www.linkedin.com/in/jakson-protazio/">JAKSON PROTÁZIO</a><br>
+                            All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var menu = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(menu);
+        });
+    </script>
+</body>
+</html>
